@@ -1,0 +1,331 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Karla', sans-serif;
+}
+
+.container
+{
+    max-width: 1180px;
+    border: solid lightgray 5px;
+    margin: 0 auto;
+}
+
+header img, section img
+{
+    width: 100%;
+}
+
+a
+{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+header
+{
+    background: url("../img/header.jpg") 
+    no-repeat center center/cover;
+    height: 80vh;
+}
+
+header .navbar
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+header .navbar nav ul li
+{
+    display: inline-block;
+    padding: 10px 30px 0 0;
+}
+
+header nav ul li a:hover
+{
+    color: lightgray;
+}
+
+header .navbar li.corner
+{
+    border: #fff solid 5px;
+    color: #fff;
+    list-style: none;
+    margin: 20px 0  0 30px;
+    padding: 5px 5px 0 5px;
+    font-weight: bold;
+}
+
+header .hello
+{
+    text-align: center;
+    margin-top: 80px;
+}
+
+header h1
+{
+    color:  yellow;
+}
+
+header h2
+{
+    color: #fff;
+}
+
+header .john
+{
+    background: grey;
+    padding: 5px;
+}
+
+section.work h2
+{
+    text-align: center;
+    margin-top: 40px;
+}
+
+section.work p.dot
+{
+    text-align: center;
+    
+}
+
+.wrap 
+{
+    width: 145px;
+    height: 2px;
+    background-color: black;
+    position: relative;
+    margin: -10px auto 40px auto;
+}
+  
+section.work .dot 
+{
+    display: inline-block;
+    vertical-align: middle;
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border: solid 1px black;
+    border-radius: 50%;
+    position: absolute;
+    top: -6px;
+    left: 45%;
+  
+}
+
+section.contact h2
+{
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+section.contact .wrap 
+{
+    width: 176px;
+    height: 2px;
+    background-color: black;
+    position: relative;
+    margin: -10px auto 40px auto;
+}
+
+section.contact .dot 
+{
+    display: inline-block;
+    vertical-align: middle;
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border: solid 1px black;
+    border-radius: 50%;
+    position: absolute;
+    top: -6px;
+    left: 45%;
+}
+
+section.work .recent_work
+{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+section.work .recent_work .work1
+{
+    background: url("../img/work_1.jpg") 
+    no-repeat center center/cover;
+    height: 40vh;
+    position: relative;
+}
+
+section.work .recent_work .work1 p
+{
+    border: solid lightgray 3px;
+    width: 275px;
+    height: 190px;
+    background: #fff;
+    padding: 20px;
+    text-align: justify;
+    position: absolute;
+    right: 60px;
+    top: 40px;
+}
+
+section.work .recent_work .work2
+{
+    background: url("../img/work_2.jpg") 
+    no-repeat center center/cover;
+    height: 40vh;
+    position: relative;
+}
+
+section.work .recent_work .work2 p
+{
+    border: solid lightgray 3px;
+    width: 275px;
+    height: 190px;
+    background: #fff;
+    padding: 20px;
+    text-align: justify;
+    position: absolute;
+    right: 60px;
+    top: 40px;
+}
+section.work .recent_work .work3
+{
+    background: url("../img/work_3.jpg") 
+    no-repeat center center/cover;
+    height: 40vh;
+    position: relative;
+}
+
+section.work .recent_work .work3 p
+{
+    border: solid lightgray 3px;
+    width: 275px;
+    height: 190px;
+    background: #fff;
+    padding: 20px;
+    text-align: justify;
+    position: absolute;
+    right: 60px;
+    top: 40px;
+}
+section.work .recent_work .work4
+{
+    background: url("../img/work_1.jpg") 
+    no-repeat center center/cover;
+    height: 40vh;
+    position: relative;
+}
+
+section.work .recent_work .work4 p
+{
+    border: solid lightgray 3px;
+    width: 275px;
+    height: 190px;
+    background: #fff;
+    padding: 20px;
+    text-align: justify;
+    position: absolute;
+    right: 60px;
+    top: 40px;
+}
+
+section.contact .phone
+{
+    display: grid;
+    grid-template-columns: repeat(2, 150px);
+    justify-content: center;
+    grid-gap: 20px;
+}
+
+.phone i
+{
+    border: solid black 3px;
+    border-radius: 50%;
+    padding: 10px;
+    margin-left: 45px;
+}
+
+.phone p:last-child
+{
+    margin-left: 20px;
+}
+
+form
+{
+    margin: 0 60px;
+}
+
+form div
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+
+form textarea
+{
+    width: 100%;
+    height: 150px;
+    margin: 20px 0;
+}
+
+section.contact .btn
+{
+    background: yellow;
+    width: 40%;
+    border-radius: 5px;
+    border: solid 1px lightgray;
+    margin: 0 auto;
+    display: block;
+  
+}
+
+footer
+{
+    margin: 45px 0 30px 0;
+    text-align: center;
+}
+
+footer img
+{
+    width: 10%;
+    height: 10%;
+}
+
+@media (max-width: 715px)
+{
+    section.work .recent_work p
+    {
+       display: none;
+    }
+  
+}
+
+@media (max-width: 450px)
+{
+    .container header .navbar .corner
+    {
+        display: none;
+    }
+
+    .navbar nav
+    {
+        margin: 0 auto;
+    }
+
+    h2
+    {
+        font-size: 1.75rem;
+    }
+
+    form div
+    {
+        grid-template-columns: 1fr;
+    }
+
+}
